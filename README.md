@@ -1,6 +1,6 @@
 # Sensor Fusion with Extended Kalman Filter
 
-In this project an Extended Kalman Filter(EKF) to estimate the state of a moving object with noisy lidar and radar measurements is built using C++. The measurements from lidar is fused with the measurements of radar to track the posiiton of the car. 
+In this project an Extended Kalman Filter(EKF) to estimate the state of a moving object(car) with noisy lidar and radar measurements is built using C++. The measurements from lidar is fused with the measurements from radar to track the posiiton of the car. 
 
 EKF is implemented to deal with the non-lineraties from the RADAR measurements. 
 The equation for EKF implemented is presented below:
