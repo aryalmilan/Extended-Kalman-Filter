@@ -12,13 +12,13 @@ EKF filter consists of following steps:
 	<li> Prediction</li>
 	<li> Update </li></ul>
 
-##Demo
+## Demo
 The demo shows the position of blue car estimated using EKF fusing the measurements from LIDAR and RADAR.  The measurments is obtained from the simulator. The red circle represent LIDAR meaurements, blue circle is measurements from RADAR. These measurement is fused using EKF to estimate the location of the blue car represented by green triangle. The estimated position is compared with ground truth using RMSE.   
 
 ![](Images/demo.gif)
 
 
-##Installation of Simulator
+## Installation of Simulator
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
 
 This repository includes two files that can be used to set up and install [uWebSocketIO](https://github.com/uWebSockets/uWebSockets) for either Linux or Mac systems. 
